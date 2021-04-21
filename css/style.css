@@ -72,6 +72,11 @@ ul>li:hover, ul>li>a:hover {
     padding-bottom: 20px;
 }
 
+.cart-headers {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
 .cart-row {
     display: grid;
     grid-template-areas: ". image . name . price .";
@@ -79,6 +84,10 @@ ul>li:hover, ul>li>a:hover {
 
 .cart-image {
     grid-area: image;
+}
+
+.cart-image>img {
+    width: 100px;
 }
 
 .cart-name {
